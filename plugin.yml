@@ -1,7 +1,17 @@
 ---
-name: lightningtp
-version: 0.0.1
-main: itzdapakrep\lightningtp\Main
-api: 5.11.0
-src-namespace-prefix: itzdapakrep\lightningtp
+name: LightningTP
+version: 1.0.0
+main: pixelwhiz\lightningtp\Main
+api: 5.0.0
+src-namespace-prefix: pixelwhiz\lightningtp
+
+commands:
+  lightningtp:
+    description: Teleport
+    usage: /lightningtp
+    permission: lightningtp.cmd
+permissions:
+  lightningtp.cmd:
+    description: "allow all"
+    default: op
 ...
