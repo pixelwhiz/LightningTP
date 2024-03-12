@@ -25,8 +25,13 @@ class Main extends PluginBase implements Listener{
 
     public function onEnable() : void
     {
-        parent::onEnable();
         Server::getInstance()->getPluginManager()->registerEvents($this, $this);
+    }
+
+    public function onEntityTeleport(EntityTeleportEvent $event) {
+        $entity = $event->getEntity();
+        if (!$entity instanceof Player) return false;
+        $this->sendLightningToPlayer($entity);
     }
 
     public function sendLightningToPlayer(Player $entity) : void{
