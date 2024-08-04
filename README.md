@@ -11,7 +11,7 @@
 ## Installation
 
 1. **Download the Plugin**:
-   - Download the `LightningTP.phar` file from the [releases page](link_to_your_releases_page).
+   - Download the `LightningTP.phar` file from the [releases page](https://poggit.pmmp.io/ci/pixelwhiz/LightningTP/LightningTP).
 
 2. **Install the Plugin**:
    - Place the `LightningTP.phar` file in the `plugins` directory of your PocketMine-MP server.
@@ -48,7 +48,3 @@ Feel free to contribute to the development of LightningTP by submitting pull req
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or support, please contact [pixelwhiz](your_contact_info).
