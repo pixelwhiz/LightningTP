@@ -31,6 +31,7 @@ class Main extends PluginBase implements Listener{
     public function onEntityTeleport(EntityTeleportEvent $event) {
         $entity = $event->getEntity();
         if (!$entity instanceof Player) return false;
+        if (!$entity->hasPermission("lightningtp.tp")) return false;
         $this->sendLightningToPlayer($entity);
     }
 
