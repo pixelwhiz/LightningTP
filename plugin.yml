@@ -4,14 +4,8 @@ version: 1.0.0
 main: pixelwhiz\lightningtp\Main
 api: 5.0.0
 src-namespace-prefix: pixelwhiz\lightningtp
-
-commands:
-  lightningtp:
-    description: Teleport
-    usage: /lightningtp
-    permission: lightningtp.cmd
 permissions:
-  lightningtp.cmd:
+  lightningtp.tp:
     description: "allow all"
     default: op
 ...
